@@ -10,4 +10,3 @@ if (!message) {
 } else if (message !== ADMIN_PASSWORD) {
     console.log('Доступ запрещен, неверный пароль!');
 }
-console.log(message);
