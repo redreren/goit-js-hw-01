@@ -1,25 +1,37 @@
 "use strict";
 let deliveryCountry = prompt("Введите страну доставки").toLowerCase();
+let country;
+let price;
 
 switch (deliveryCountry) {
     case 'китай':
-        alert('Доставка в Китай будет стоить 100 кредитов');
+        country = "Китай";
+        price = "100";
+        alert(`Доставка в ${country} будет стоить ${price} кредитов`);
         break;
 
     case 'чили':
-        alert('Доставка в Чили будет стоить 250 кредитов');
+        country = "Чили";
+        price = "250";
+        alert(`Доставка в ${country} будет стоить ${price} кредитов`);
         break;
 
     case 'австралия':
-        alert('Доставка в Австралия будет стоить 170 кредитов');
+        country = "Австралию";
+        price = "170";
+        alert(`Доставка в ${country} будет стоить ${price} кредитов`);
         break;
 
     case 'индия':
-        alert('Доставка в Индия будет стоить 80 кредитов');
+        country = "Индию";
+        price = "80";
+        alert(`Доставка в ${country} будет стоить ${price} кредитов`);
         break;
 
     case 'ямайка':
-        alert('Доставка в Ямайка будет стоить 120 кредитов');
+        country = "Ямайку";
+        price = "120";
+        alert(`Доставка в ${country} будет стоить ${price} кредитов`);
         break;
 
     default:
