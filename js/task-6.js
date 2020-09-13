@@ -1,12 +1,12 @@
 "use strict";
-let input = confirm('Хотите числа вводить?');
+let input = confirm("Хотите числа вводить?");
 let total = 0;
 
-total = ++total;
+// total = ++total;
 
 while (input) {
-    input = +prompt();
-    total += input;
-    console.log(input);
+  input = +prompt();
+  total += input;
+  console.log(input);
 }
-console.log(total);
+console.log(`Общая сумма чисел равна ${total}`);
